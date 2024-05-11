@@ -1,4 +1,4 @@
-* # GitHub View Bot
+# GitHub View Bot
 Bot for Profile Views on the Github!
 
 * ## Installation
