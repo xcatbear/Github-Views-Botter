@@ -6,7 +6,7 @@ Bot for Profile Views on the Github!
 git clone https://github.com/xcatbear/Github-Views-Botter
 ```
 ```
-cd Github-View-Bot
+cd Github-Views-Botter
 ```
 ```
 pip install -r requirements.txt
