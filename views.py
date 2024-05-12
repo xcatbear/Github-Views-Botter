@@ -2,8 +2,8 @@ import requests
 import threading
 import time
 
-REQUESTS_PER_SECOND = 50
-URL = "URL TO YOUR VIEW COUNTER"
+URL = input('Enter the URL: ')
+REQUESTS_PER_SECOND = int(input('Enter the amount of Threads: '))
 
 total_requests = 0
 
@@ -15,8 +15,9 @@ def make_requests():
         time.sleep(1 / REQUESTS_PER_SECOND)
 
 def print_progress():
+    print(" ")
     while True:
-        print(f"Total requests made: {total_requests}")
+        print(f"Total successful requests made: {total_requests}")
         time.sleep(1)
 
 def main():
