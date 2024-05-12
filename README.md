@@ -3,7 +3,7 @@ Bot for Profile Views on the Github!
 
 * ## Installation
 ```
-git clone https://github.com/xcatbear/Github-View-Bot
+git clone https://github.com/xcatbear/Github-Views-Botter
 ```
 ```
 cd Github-View-Bot
